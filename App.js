@@ -1,12 +1,14 @@
 // App.js
 import React, { useState } from 'react';
 import { NavigationContainer, DarkTheme } from '@react-navigation/native';
+import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { View, TouchableOpacity, Text, StyleSheet, ScrollView, StatusBar, TextInput } from 'react-native';
 import { bookContent } from './bookContent';
-
+import { hinoContent } from './hinoContent';
 
 const Stack = createNativeStackNavigator();
+const Tab = createMaterialTopTabNavigator();
 
 // Home Screen Component (Book Selection)
 const HomeScreen = ({ navigation }) => {
@@ -162,48 +164,176 @@ const BookContentScreen = ({ route }) => {
   );
 };
 
+// Home screen for Hinario
+const HinarioScreen = ({ navigation }) => {
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const normalizeString = (str) => {
+    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  };
+
+  const handleHinoPress = (hinoId) => {
+    navigation.navigate('HinoContent', { hinoId });
+    setSearchQuery(''); // Clear the search
+  };
+
+  const filteredHinos = Object.keys(hinoContent).filter(hinoId => 
+    normalizeString(hinoContent[hinoId].title.toLowerCase()).includes(normalizeString(searchQuery.toLowerCase()))
+  );
+
+  return (
+    <View style={styles.container}>
+      <StatusBar barStyle="light-content" backgroundColor="#4A90E2" />
+      <TextInput
+        style={styles.searchBar}
+        placeholder="Pesquisar"
+        placeholderTextColor="#888"
+        value={searchQuery}
+        onChangeText={setSearchQuery}
+      />
+      <ScrollView contentContainerStyle={styles.buttonContainer} keyboardShouldPersistTaps={'handled'}>
+        {/* Only Column */}
+        <View style={styles.columnBig}>
+          {filteredHinos.map(hinoId => (
+            <TouchableOpacity 
+              key={hinoId}
+              style={styles.button}
+              onPress={() => handleHinoPress(hinoId)}
+            >
+              <Text style={styles.buttonText}>{hinoContent[hinoId].title}</Text>
+            </TouchableOpacity>
+          ))}
+        </View>
+      </ScrollView>
+    </View>
+  );
+};
+
+// Hino Content Screen Component
+const HinoContentScreen = ({ route }) => {
+  const { hinoId } = route.params;
+  const hino = hinoContent[hinoId];
+  
+  return (
+    <ScrollView contentContainerStyle={styles.contentContainer}>
+      <Text style={styles.contentText}>{hino.content}</Text>
+    </ScrollView>
+  );
+};
+
+// Wrap existing Stack navigator in a new component
+const BibliaStack = () => {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen 
+        name="Home" 
+        component={HomeScreen}
+        options={{
+          title: 'Bíblia CCB - Livros',
+          headerTitleAlign: 'center',
+          headerTintColor: '#fff',
+          headerStyle: {
+            backgroundColor: '#4A90E2',
+          },
+        }}
+      />
+      <Stack.Screen 
+        name="ChapterSelection" 
+        component={ChapterSelectionScreen}
+        options={({ route }) => ({ 
+          title: bookContent[route.params.bookId].title,
+          headerTitleAlign: 'center',
+          headerTintColor: '#fff',
+          headerStyle: {
+            backgroundColor: '#4A90E2',
+          }, 
+        })}
+      />
+      <Stack.Screen 
+        name="BookContent" 
+        component={BookContentScreen}
+        options={({ route }) => ({ 
+          title: `Capítulo ${route.params.chapterId}`,
+          headerTitleAlign: 'center',
+          headerTintColor: '#fff',
+          headerStyle: {
+            backgroundColor: '#4A90E2',
+          }, 
+        })}
+      />
+    </Stack.Navigator>
+  );
+};
+
+const HinarioStack = () => {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen 
+        name="HinarioHome" 
+        component={HinarioScreen}
+        options={{
+          title: 'Hinário CCB',
+          headerTitleAlign: 'center',
+          headerTintColor: '#fff',
+          headerStyle: {
+            backgroundColor: '#4A90E2',
+          },
+        }}
+      />
+      <Stack.Screen 
+        name="HinoContent" 
+        component={HinoContentScreen}
+        options={({ route }) => ({ 
+          title: hinoContent[route.params.hinoId].title,
+          headerTitleAlign: 'center',
+          headerTintColor: '#fff',
+          headerStyle: {
+            backgroundColor: '#4A90E2',
+          }, 
+        })}
+      />
+    </Stack.Navigator>
+  );
+};
+
 // Main App Component
 const App = () => {
   return (
     <NavigationContainer theme={DarkTheme}>
-      <Stack.Navigator >
-        <Stack.Screen 
-          name="Home" 
-          component={HomeScreen}
+      <Tab.Navigator
+        tabBarPosition="bottom"
+        screenOptions={{
+          tabBarStyle: {
+            backgroundColor: '#191919',
+            borderTopColor: '#333',
+          },
+          tabBarActiveTintColor: '#4A90E2',
+          tabBarInactiveTintColor: '#888',
+          tabBarIndicatorStyle: {
+            backgroundColor: '#4A90E2',
+            position: 'top',
+          },
+          tabBarLabelStyle: {
+            textTransform: 'none', // Prevents uppercase transformation
+            fontSize: 14,
+          },
+        }}
+      >
+        <Tab.Screen 
+          name="Biblia" 
+          component={BibliaStack}
           options={{
-            title: 'Bíblia CCB - Livros',
-            headerTitleAlign: 'center',
-            headerTintColor: '#fff',
-            headerStyle: {
-              backgroundColor: '#4A90E2',
-            },
+            tabBarLabel: 'Bíblia',
           }}
         />
-        <Stack.Screen 
-          name="ChapterSelection" 
-          component={ChapterSelectionScreen}
-          options={({ route }) => ({ 
-            title: bookContent[route.params.bookId].title,
-            headerTitleAlign: 'center',
-            headerTintColor: '#fff',
-            headerStyle: {
-              backgroundColor: '#4A90E2',
-            }, 
-          })}
+        <Tab.Screen 
+          name="Hinario" 
+          component={HinarioStack}
+          options={{
+            tabBarLabel: 'Hinário',
+          }}
         />
-        <Stack.Screen 
-          name="BookContent" 
-          component={BookContentScreen}
-          options={({ route }) => ({ 
-            title: `Capítulo ${route.params.chapterId}`,
-            headerTitleAlign: 'center',
-            headerTintColor: '#fff',
-            headerStyle: {
-              backgroundColor: '#4A90E2',
-            }, 
-          })}
-        />
-      </Stack.Navigator>
+      </Tab.Navigator>
     </NavigationContainer>
   );
 };
@@ -228,6 +358,9 @@ const styles = StyleSheet.create({
   },
   columnSmall: {
     width: '22%',
+  },
+  columnBig: {
+    width: '90%',
   },
   button: {
     backgroundColor: '#4A90E2',
@@ -284,6 +417,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 20,
     color: '#fff',
+    textAlign: 'center',
   },
   contentText: {
     fontSize: 16,

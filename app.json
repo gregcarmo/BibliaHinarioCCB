@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Biblia CCB",
+    "name": "Bíblia Hinário CCB",
     "slug": "ccb-biblia-hinario",
-    "version": "1.3",
+    "version": "2.0",
     "orientation": "portrait",
     "icon": "./assets/bible-icon.png",
     "userInterfaceStyle": "dark",
