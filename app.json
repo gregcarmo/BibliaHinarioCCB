@@ -16,7 +16,6 @@
       "supportsTablet": true
     },
     "android": {
-      "versionCode": 3,
       "backgroundColor": "#191919",
       "adaptiveIcon": {
         "foregroundImage": "./assets/bible-icon.png",
