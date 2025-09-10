@@ -73,7 +73,7 @@ Ver Tua face no reino de luz.
   4: {
     title: "4. Ouve a nossa oração",
     content: `
-1. Nossos olhos para_os céus, ó Deus, nós levanta-mos;
+1. Nossos olhos para_os céus, ó Deus, nós levantamos;
 Confiando_em Teu amor, a nossa voz alçamos.
 
     Ouve_a nossa oração
@@ -82,9 +82,9 @@ Confiando_em Teu amor, a nossa voz alçamos.
     Manda,_ó Deus piedoso.
 
 2. Refrigério celestial e bálsamo precioso
-É sentir-Te_em nosso ser, Pai santo, glorio-so.
+É sentir-Te_em nosso ser, Pai santo, glorioso.
 
-3. No Teu trono, ó Senhor, recebe nesta ho-ra
+3. No Teu trono, ó Senhor, recebe nesta hora
 A humilde oração do povo que Te_adora.
     `
   },
@@ -353,7 +353,7 @@ Eu desejo consagrar-me e_alcançar, de Ti, mercê.
 
     Com o_Espírito divino
     Vem, Jesus, me batizar;
-    Aos Teus pés eu me incli-no
+    Aos Teus pés eu me inclino
     E te rogo sem cessar:
     Oh! Vem, Senhor, com Teu Dom me consolar.
 
@@ -665,7 +665,7 @@ Do_astuto tentador nos livra_o Criador e nos protege;
 Nada nós temeremos,
 Pois o Invemcível nós temos.
 
-2. Estará para sempre perdi-do
+2. Estará para sempre perdido
 Quem em si somente confia,
 Mas será lá do céu socorrido,
 Crendo em Jesus, nosso Guia.
@@ -673,11 +673,11 @@ O Filho do bom Deus é Defensor dos Seus, é Rei da glória;
 D'Ele virtude temos,
 E vitória alcançaremos.
 
-3. A Palavra, que é nossa Vi-da,
+3. A Palavra, que é nossa Vida,
 Deve ser por nós exaltada;
-É, também, nossa firme Guari-da
+É, também, nossa firme Guarida
 Que não pode ser abalada.
-O mal virá tentar a fim de despojar os resgata-dos,
+O mal virá tentar a fim de despojar os resgatados,
 Mas teremos vitória,
 Pois é nosso_o reino e_a glória.
     `
@@ -716,7 +716,7 @@ Jesus que, sobre tudo, recebeu de Deus poder.
     Só em Cristo,_o_Emanuel.
 
 2. Por um caminho plano nos guiará Jesus,
-Ele nos ilu-mina com Sua_eterna luz;
+Ele nos ilumina com Sua_eterna luz;
 É ele Quem nos envia virtude, graça_e poder,
 E, neste mundo de trevas, nos fará resplandecer;
 Findando a jornada, Sua face_iremos ver.
@@ -1070,16 +1070,16 @@ Em justiça_e retidão, vou seguindo para_os céus.
 1. Ó Deus e Pai, Senhor da_eternidade,
 Venho_adorar-Te, santo Criador;
 Com fé_e temor da Tua majestade,
-Para os céus elevo meu cla-mor.
+Para os céus elevo meu clamor.
 
 2. Rogo, Senhor, por mérito de Cristo,
 Dá ao Teu servo graça e saber;
 Aos olhos Teus, desejo ser benquisto;
-Nesta_ora-ção transforma o meu ser.
+Nesta_oração transforma o meu ser.
 
 3. Vem visitar minha'alma,_ó Deus bendito,
 Das minhas provas me esquecerei;
-Eis-me_aos Teus pés, ansioso e contri-to;
+Eis-me_aos Teus pés, ansioso e contrito;
 Ardentemente Te exaltarei.
     `
   },
@@ -1394,7 +1394,7 @@ Cristo, o Verbo eterno, veio por graça de Deus.
     Se vós baterdes, Ele vos abre;
     O que pedirdes, dará.
     Se vós buscardes o Mestre,
-    Por vós acha-do será.
+    Por vós achado será.
     `
   },
   64: {
@@ -1424,7 +1424,7 @@ E minha vida a Ele consagrar.
     Meu coração é todo Teu, Senhor,
     Ele_é o um templo para Teu louvor,
     Guarda-o do mal, ao vir a tentação;
-    Sou Teu remi-do, divino Redentor.
+    Sou Teu remido, divino Redentor.
 
 2. Cristo, o Mestre, Sua cruz levou
 E_o Pai eterno O glorificou;
@@ -1667,7 +1667,7 @@ Com Sua sombra me cobrirá
 E nenhum mal me molestará;
 Meus pés também não tropeçarão;
 Os anjos dos céus, ao mandado de Deus,
-Me susten-tarão.
+Me sustentarão.
 
 3. Cristo Jesus Sua mão me dá;
 Nada, portanto, me faz parar,
@@ -1790,24 +1790,24 @@ Desceu da glória dos céus por ti; só n'Ele encontras perdão.
   82: {
     title: "82. Oh! Que grande amor!",
     content: `
-1. Padeceu dura mor-te por nós, sobre_a cruz,
+1. Padeceu dura morte por nós, sobre_a cruz,
 O Rei dos reis;
 Por Seu grande_amor ao céu conduz
 Os Seus remidos fiéis.
 
-    Oh! Que grande_a-mor,
+    Oh! Que grande_amor,
     Que sublime_amor
     Nos concede Jesus!
     Ele é a nossa_eterna Luz.
 
 2. Gratidão nós devemos ao nosso Senhor,
 O Rei dos reis;
-Que nos le-va-rá ao Criador,
+Que nos levará ao Criador,
 Se_em tudo formos fiéis.
 
-3. Na cida-de éter-na de paz divinal,
+3. Na cidade éter-na de paz divinal,
 O Rei dos reis;
-Honrará, com gló-ria perenal,
+Honrará, com glória perenal,
 Os Seus amados fiéis.
     `
   },
@@ -1831,7 +1831,7 @@ Herdeiros da salvação.
 
 3. Que glória_eterna, celestial,
 Que honra, que amor,
-Terão os santos no lar divi-nal
+Terão os santos no lar divinal
 Com Cristo, o seu Senhor!
     `
   },
@@ -2009,7 +2009,7 @@ Com Sua sombra coberto serás.
     O Criador te_esconderá
     Em Seu seguro abrigo;
     Ao teu redor Se acampará,
-    Não temerás o_inimi-go.
+    Não temerás o_inimigo.
 
 2. Florescerás como toda_a palmeira
 E, como_o cedro, assim crescerás;
@@ -2108,7 +2108,7 @@ Deus enxugará as lágrimas e toda a tribulação cessará.
   96: {
     title: "96. Vinde, adoremos a Deus",
     content: `
-1. Vinde,_adore-mos a Deus,
+1. Vinde,_adoremos a Deus,
 Santo_e sublime Rei dos céus;
 Vinde com fé;
 O Deus que dá saber,
@@ -2122,7 +2122,7 @@ Cristo Jesus,
 Santo Pastor, veraz,
 Rei de justiça_e paz,
 Que_às nossas almas traz
-Vi-da e luz.
+Vida e luz.
 
 3. Deus, Pai eterno_e fiel,
 Vos fartará de leite_e mel
@@ -2281,17 +2281,17 @@ Dentro de mim eu sinto a voz do meu Senhor.
   103: {
     title: "103. Bendize, ó minha alma",
     content: `
-1. Bendize,_ó minha al-ma, ao teu amado Senhor,
+1. Bendize,_ó minha alma, ao teu amado Senhor,
 Bendize_o Nome do eterno Deus; é grande o bem que te faz;
 Nunca te esqueças do amor e do celestial favor;
 É Ele Quem perdoa_os erros teus e te dá conforto e paz.
 
-    Ao Pai da_Eternida-de,
+    Ao Pai da_Eternidade,
     Grande_em benignidade,
     Glória e majestade,
     Domínio, honra_e louvor!
 
-2. Todo_o meu ser bendi-ga ao Deus que dá perfeição;
+2. Todo_o meu ser bendiga ao Deus que dá perfeição;
 O bálsamo que me_alivia_a dor, do Seu santo trono provém;
 Ele afastou, por Seu amor, de mim a grande maldição;
 E, aos que cumprem Sua_eterna lei, reserva no céu sumo bem.
@@ -2306,13 +2306,13 @@ Vós todos que sois filhos do Senhor, a Ele somente temei.
     title: "104. Santo, Santo és, Senhor",
     content: `
 1. A Ti, ó Senhor, tributamos louvor,
-Honra_e glória por Teu infinito fa-vor.
+Honra_e glória por Teu infinito favor.
 
     Santo, Santo és, Senhor; Santo, Santo és Tu;
-    Só a Ti todo_o louvor perten-ce, Senhor.
+    Só a Ti todo_o louvor pertence, Senhor.
 
 2. Amado Jesus, celestial Rei dos reis,
-Brevemente_estarão, junto_a Ti, Teus fi-éis.
+Brevemente_estarão, junto_a Ti, Teus fiéis.
 
 3. Em breve no céus, Teus remidos, Senhor,
 Viverão para sempre no reino de_amor.
@@ -2353,7 +2353,7 @@ Visita-nos desde os céus.
 2. Bendito és Tu, ó Criador,
 Fiel e potente Deus;
 Envia, ó Senhor, o Teu Consolador;
-Conforta os san-tos Teus.
+Conforta os santos Teus.
 
 3. Com fé nos prostramos, ó Senhor,
 Em santa adoração;
@@ -2366,7 +2366,7 @@ Oh! Põe-nos em comunhão.
     content: `
 1. O fim de tudo chegará, ouvi, pecadores,
 Só Cristo vos perdoará e vida vos dará;
-O fim está bem perto, bem per-to, bem perto,
+O fim está bem perto, bem perto, bem perto,
 Fazei então concerto com Quem vos quer salvar;
 Ó vinde, contritos, depressa, sem tardar,
 A Cristo piedoso, que a glória vos quer dar.
@@ -2569,7 +2569,7 @@ Mas Deus mandou-me consolação.
 2. É piedoso_e sublime, o justo Deus;
 Ele tem misericórdia dos santos Seus.
 Volta, minh'alma, a descansar,
-Bênção precio-sas Deus vai te dar.
+Bênção preciosas Deus vai te dar.
 
 3. Meus pés livraste da queda, ó meu Senhor,
 E preservaste do pranto Teu servidor.
@@ -2730,7 +2730,7 @@ A Deus oremos sempre com fervor.
     content: `
 1. Ó Jesus, és meu Guardião,
 Tu me livras de todo_o mal;
-Mesmo_em prova_e tribula-ção,
+Mesmo_em prova_e tribulação,
 És meu Refúgio celestial.
 
 2. Meu tesouro és Tu, Jesus,
@@ -2740,7 +2740,7 @@ E me conduzes com Tua mão.
 
 3. Pela fé e por Teu amor,
 Vou seguindo a Ti, Jesus,
-Pela senda do Cria-dor;
+Pela senda do Criador;
 Breve_estarei no Teu lar de luz.
     `
   },
@@ -3229,20 +3229,20 @@ Com Deus terás riqueza; pródigo filho, vai!
   146: {
     title: "146. De Deus veio a Luz",
     content: `
-1. De Deus veio_a Luz: é Cristo Je-sus,
+1. De Deus veio_a Luz: é Cristo Jesus,
 O Guia que aos céus nos conduz;
-Jesus, Redentor ce-lesti-al,
-Dissi-pa_as trevas do mal.
+Jesus, Redentor celestial,
+Dissipa_as trevas do mal.
 
 2. Em Deus há saber, profundo saber,
 Favor e infinito poder;
-Proveu, em Jesus, a salva-ção;
+Proveu, em Jesus, a salvação;
 Proveu aos homens, perdão.
 
-3. A Deus, Criador, e_a Cristo,_o Se-nhor,
+3. A Deus, Criador, e_a Cristo,_o Senhor,
 Eterna gratidão e louvor
 Darão sem cessar os santos Seus,
-Na ter-ra_e,_em breve, nos céus.
+Na terra_e,_em breve, nos céus.
     `
   },
   147: {
@@ -3639,8 +3639,8 @@ Em paz, na Sua senda caminham os remidos,
 Lutando sempre_unidos, com força e valor.
 
 3. Jesus virá, com glória, fazer o julgamento
-De quem Seu mandamento não quis obede-cer;
-Porém, os Seus remi-dos já têm a esperança
+De quem Seu mandamento não quis obedecer;
+Porém, os Seus remidos já têm a esperança
 E_a firme confiança de_o prêmio receber.
     `
   },
@@ -5149,7 +5149,7 @@ Findando este culto de louvor a Ti, ó Deus Formador;
 As nossas forças foram renovadas por Teu bom Consolador.
 
 2. Senhor, com Tua_ajuda, desejamos atender
-A tudo_o que, por Tua sã Palavra, nos fi-zes-te saber,
+A tudo_o que, por Tua sã Palavra, nos fizeste saber,
 Pois nós queremos, sobre esta terra, sempre mais resplandecer.
 
 3. Despede-os em paz da Tua casa, ó Senhor,
@@ -5629,9 +5629,9 @@ Breve verei, nas nuvens, Cristo, em Sua vinda.
     title: "252. Exaltação ao Deus Onipotente!",
     content: `
 1. Exaltação ao Deus Onipotente!
-San-to louvor Lhe dão os filhos Seus.
+Santo louvor Lhe dão os filhos Seus.
 Oram por fé e, reverentemente,
-Can-tam ao Pai, Senhor e grande Deus.
+Cantam ao Pai, Senhor e grande Deus.
 
 2. Veneração ao Deus Onipresente!
 Rege do céu o mundo que formou.
@@ -6176,9 +6176,9 @@ Fomos também comprados com sangue de Jesus.
     Cantado santos hi-nos a Deus, nosso bom Criador.
 
 2. Em Deus confiaremos nas nossas provações,
-A nada temere-mos, com Sua proteção;
+A nada temeremos, com Sua proteção;
 O Seu conforto temos em nossas aflições,
-Sempre triunfare-mos com Sua forte mão.
+Sempre triunfaremos com Sua forte mão.
 
 3. Alegres caminhemos com o bom Pai de_amor,
 Seguindo-O, triunfantes, pois do mal nos livrou;
@@ -6490,7 +6490,7 @@ Que vai à nossa frente e_á glória nos conduz.
     Avante,_avante!
     Unidos ao Senhor;
     Só Ele_é nosso Condutor;
-    Avante! Marche-mos com valor.
+    Avante! Marchemos com valor.
 
 2. Lugares deleitosos Jesus nos preparou,
 De jugos mui penosos também nos libertou;
@@ -7023,17 +7023,17 @@ Oh! Glória_a Jesus, o Senhor!
     title: "314. O Teu poder supremo",
     content: `
 1. O Teu poder supremo, ó Rei dos reis,
-Remove os tropeços aos Teus fi-éis;
+Remove os tropeços aos Teus fiéis;
 Só Tu me podes conduzir ao lar de_amor;
 És Fonte de toda força, firmeza e vigor.
 
-2. Em Teu bendito Nome, ó Re-dentor,
+2. Em Teu bendito Nome, ó Redentor,
 Por Deus é recebido o meu clamor;
 Meu ser entrego todo_a Ti, ó Salvador;
 Meus olhos a Ti levanto, atende-me, Senhor.
 
 3. Agrava-se_a batalha aqui, meu Rei,
-Mas sempre_estás comigo, não teme-rei;
+Mas sempre_estás comigo, não temerei;
 De armadura divinal me proverás;
 Ao fim, na eterna glória, Tu me receberás.
     `
@@ -7914,7 +7914,7 @@ No reino Seu de luz.
 2. Do mundo nada temerei,
 Pois vivo com Jesus,
 E confundido não serei,
-An-dando_em Sua luz.
+Andando_em Sua luz.
 
 3. Na vida devo combater
 Com fé em meu Jesus;
@@ -8188,7 +8188,7 @@ Das promessas que Deus anunciou.
 
     O nosso Rei não tardará!
     Virá do céu com resplendor;
-    O po-vo santo,_ao vê-Lo, Lhe dirá:
+    O povo santo,_ao vê-Lo, Lhe dirá:
     Sim, vem, amado Senhor!
 
 2. Os que servirem ao Senhor,
@@ -8696,24 +8696,24 @@ Que nos guia_ao Criador, à eternal Jerusalém.
     title: "387. Ó Salvador, que recebeste poder",
     content: `
 1. Ó Salvador, que de Deus recebeste
-Todo_o poder sobre_a ter-ra e_os céus,
+Todo_o poder sobre_a terra e_os céus,
 Vem aumentar a virtude celeste
-Nes-te meu ser, pa-ra gló-ria de Deus.
+Neste meu ser, para glória de Deus.
 
-2. Ó Re-den-tor, que abriste a porta
+2. Ó Redentor, que abriste a porta
 Do santuário eter-no de Deus,
 Dá ao Teu servo a paz que conforta,
-Que prome-teste a todos os Teus.
+Que prometeste a todos os Teus.
 
-3. Fi-lho de Deus, Tu vences-te a morte
-E vi-vo_estás para sem-pre, Senhor;
-De Ti es-pero também esta sorte:
-Res-susci-tar pa-ra_o rei-no de_amor.
+3. Filho de Deus, Tu venceste a morte
+E vivo_estás para sempre, Senhor;
+De Ti espero também esta sorte:
+Ressuscitar para_o rei-no de_amor.
 
-4. No transcor-rer desta minha_existência,
-Que-ro hon-rar-Te, ó meu Redentor;
-Quero um dia es-tar na presença
-Do grande Deus e fi-el Criador.
+4. No transcorrer desta minha_existência,
+Quero honrar-Te, ó meu Redentor;
+Quero um dia estar na presença
+Do grande Deus e fiel Criador.
     `
   },
   388: {
@@ -8887,24 +8887,24 @@ Regozijo sentirei eternamente.
   395: {
     title: "395. \"Eis-Me aqui\", dirá o Criador",
     content: `
-1. “Eis-Me aqui”, di-rá o Criador
+1. “Eis-Me aqui”, dirá o Criador
 Aos Seus fiéis que rogam Seu favor;
 Deus mandará poder celestial
-Pa-ra que_os Seus tri-unfem sobre_o mal.
+Para que_os Seus triunfem sobre_o mal.
 
 2. A geração dos santos do Senhor
 Tem em seu Deus, potente Defensor;
-Só Ele_é Deus, Autor da cria-ção;
-Tu-do_Ele fez com luz e perfeição.
+Só Ele_é Deus, Autor da criação;
+Tudo_Ele fez com luz e perfeição.
 
 3. Vamos, irmãos, a Deus nos achegar;
 E nossa fé em Deus depositar;
 Ele é Pai de grande compaixão;
-Te-mos também de Cris-to_a_intercessão.
+Temos também de Cristo_a_intercessão.
 
 4. Voz celestial o justo sentirá
 Dentro de si e rejubilará;
-“Eis-Me aqui”, dirá o Cria-dor
+“Eis-Me aqui”, dirá o Criador
 Ao Seu fiel e santo servidor.
     `
   },
@@ -8967,7 +8967,7 @@ De_andar e_O servir em santificação.
     Não tardará a volta do Senhor Jesus!
     Virá, irmãos, premiar os Seus com galardão;
     Mas, os que rejeitarem Sua luz,
-    Condena-ção eterna_encontrarão.
+    Condenação eterna_encontrarão.
     Andai, irmãos,
     Na fé, na paz, no_amor do Rei dos reis.
 
@@ -9019,7 +9019,7 @@ Não resta mais condenação. Bendito seja_o Deus da Luz!
 3. O Salvador ressuscitou e para_o Pai subiu;
 Do cativeiro libertou aqueles que remiu;
 Ao céu subiu o Remidor e_os salvos subirão também;
-Com-templarão o Criador na celestial Jerusalém.
+Comtemplarão o Criador na celestial Jerusalém.
     `
   },
   401: {
@@ -9413,18 +9413,18 @@ Da pena_eterna nos libertou.
     content: `
 1. Sempre lembremo-nos da morte do nosso_amado_e bom Jesus;
 Sua memória celebremos, Seu sacrifício sobre_a cruz.
-Toma-remos, como-vidos, a Santa Ceia do Senhor;
+Tomaremos, comovidos, a Santa Ceia do Senhor;
 Somos, agora, Seus remidos por Sua obra de grande_amor.
 
 2. Neste momento_o pão partimos, como Jesus determinou,
 E, nesta comunhão, sentimos quanto o Mestre nos amou;
-Ao be-bermos des-te cálix, por mandamento do Senhor
-Anunciamos Sua morte até que venha o Re-dentor.
+Ao bebermos deste cálix, por mandamento do Senhor
+Anunciamos Sua morte até que venha o Redentor.
 
 3. Rememoremos o martírio, a_humilhação que suportou;
 Sendo, de Deus, o_amado Filho, do céu desceu e nos salvou.
 Retornou ao Pai eterno, mas dentro_em breve voltará
-Para nos dar perpétua glória no rei-no que prepara-do_está.
+Para nos dar perpétua glória no rei-no que preparado_está.
     `
   },
   420: {
@@ -9666,9 +9666,9 @@ Vida eternal com o Salvador.
   431: {
     title: "431. Ó meninos, estamos reunidos",
     content: `
-1. Ó meninos, nós esta-mos
+1. Ó meninos, nós estamos
 Reunidos ante_o bom Pastor;
-Ansiosos, espera-mos
+Ansiosos, esperamos
 Seus conselhos de amor.
 
     Nós estamos na presença
@@ -9676,14 +9676,14 @@ Seus conselhos de amor.
     Desfrutando Suas bênçãos
     Que provêm do Seu amor.
 
-2. Ó meninos, atenda-mos
+2. Ó meninos, atendamos
 A Jesus, divino Salvador,
-Pois é d'Ele que_espera-mos
+Pois é d'Ele que_esperamos
 A virtude_e o vigor.
 
-3. Ó meninos, com firme-za
+3. Ó meninos, com firmeza
 Nós devemos sempre caminhar;
-É eterna a rique-za
+É eterna a riqueza
 Que Jesus nos veio dar.
     `
   },
@@ -9822,15 +9822,15 @@ A doutrina santa que conduz aos céus;
 1. Bem perto_está dos Seus fiéis
 Jesus, o grande Mestre;
 Jamais nos deixa_o Rei dos reis,
-Oh! Que amor celes-te!
+Oh! Que amor celeste!
 
     Perto está o Salvador
     Dos que O têm por seu Pastor;
     Não nos deixa_o Redentor;
-    Oh! Que amor celes-te!
+    Oh! Que amor celeste!
 
 2. Jesus, o nosso Redentor,
-Do alto nos reves-te;
+Do alto nos reveste;
 Nas provas, lutas ou a dor,
 Presente_está o Mestre.
 
@@ -10300,8 +10300,8 @@ Encontrará em nós valor. Vamos nos preparar!
 
     Glória! Glória a Cristo,_o Rei dos reis!
     Glória! Glória! Cantam os Seus fiéis;
-    Glória! Gló-ria na terra e nos céus;
-    Gló-ria! Glória ao poderoso Deus!
+    Glória! Glória na terra e nos céus;
+    Glória! Glória ao poderoso Deus!
     `
   },
   460: {
@@ -10310,26 +10310,26 @@ Encontrará em nós valor. Vamos nos preparar!
 1. Vamos todos juntos cantar:
 Glória_a Jesus! Glória_a Jesus!
 Vamos todos juntos louvar
-Ao Senhor Je-sus!
+Ao Senhor Jesus!
 Ele_é_a nossa Paz, Ele_é_a nossa Luz;
 Exaltemos, com devoção,
-Ao Senhor Je-sus!
+Ao Senhor Jesus!
 
 2. Somos salvos por Seu amor;
 Glória_a Jesus! Glória_a Jesus!
 Suportou, por nós, grande dor
-O Senhor Je-sus.
+O Senhor Jesus.
 Quem nos dá perdão, Quem ao céu conduz
 É o santo Filho de Deus,
-O Senhor Je-sus.
+O Senhor Jesus.
 
 3. Mui felizes somos então;
 Glória_a Jesus! Glória_a Jesus!
 Recebemos consolação
-Do Senhor Je-sus.
+Do Senhor Jesus.
 No Seu lar de_amor, no Seu lar de luz,
 Novo hino vamos cantar
-Ao Senhor Je-sus.
+Ao Senhor Jesus.
     `
   },
   461: {
