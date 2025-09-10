@@ -40,7 +40,7 @@ const HomeScreen = ({ navigation }) => {
       <ScrollView contentContainerStyle={styles.buttonContainer} keyboardShouldPersistTaps={'handled'}>
         {/* Left Column */}
         <View style={styles.column}>
-          <Text style={styles.contentTitle}>Antigo Testamento</Text>
+          <Text style={styles.contentTitle}>Antigo{'\n'}Testamento</Text>
           {filteredBooks.filter(bookId => bookId <= 39).map(bookId => (
             <TouchableOpacity 
               key={bookId}
@@ -54,7 +54,7 @@ const HomeScreen = ({ navigation }) => {
 
         {/* Right Column */}
         <View style={styles.column}>
-          <Text style={styles.contentTitle}>Novo Testamento</Text>
+          <Text style={styles.contentTitle}>Novo{'\n'}Testamento</Text>
           {filteredBooks.filter(bookId => bookId > 39).map(bookId => (
             <TouchableOpacity 
               key={bookId}
