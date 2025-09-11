@@ -1,9 +1,9 @@
 // App.js
 import React, { useState } from 'react';
-import { NavigationContainer, DarkTheme } from '@react-navigation/native';
+import { NavigationContainer, DarkTheme, DefaultTheme, useTheme } from '@react-navigation/native';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { View, TouchableOpacity, Text, StyleSheet, ScrollView, StatusBar, TextInput } from 'react-native';
+import { View, TouchableOpacity, Text, StyleSheet, ScrollView, StatusBar, TextInput, useColorScheme } from 'react-native';
 import { bookContent } from './bookContent';
 import { hinoContent } from './hinoContent';
 
@@ -12,6 +12,8 @@ const Tab = createMaterialTopTabNavigator();
 
 // Home Screen Component (Book Selection)
 const HomeScreen = ({ navigation }) => {
+  const { colors } = useTheme();
+  const colorScheme = useColorScheme();
   const [searchQuery, setSearchQuery] = useState('');
 
   const normalizeString = (str) => {
@@ -28,19 +30,19 @@ const HomeScreen = ({ navigation }) => {
   );
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, { backgroundColor: colors.background }]}>
       <StatusBar barStyle="light-content" backgroundColor="#4A90E2" />
       <TextInput
-        style={styles.searchBar}
+        style={[styles.searchBar, { color: colors.text, backgroundColor: colorScheme === 'dark' ? '#333' : '#eee', borderColor: '#4A90E2' }]}
         placeholder="Pesquisar"
         placeholderTextColor="#888"
         value={searchQuery}
         onChangeText={setSearchQuery}
       />
-      <ScrollView contentContainerStyle={styles.buttonContainer} keyboardShouldPersistTaps={'handled'}>
+      <ScrollView contentContainerStyle={[styles.buttonContainer, { backgroundColor: colors.background }]} keyboardShouldPersistTaps={'handled'}>
         {/* Left Column */}
         <View style={styles.column}>
-          <Text style={styles.contentTitle}>Antigo{'\n'}Testamento</Text>
+          <Text style={[styles.contentTitle, { color: colors.text }]}>Antigo{'\n'}Testamento</Text>
           {filteredBooks.filter(bookId => bookId <= 39).map(bookId => (
             <TouchableOpacity 
               key={bookId}
@@ -54,7 +56,7 @@ const HomeScreen = ({ navigation }) => {
 
         {/* Right Column */}
         <View style={styles.column}>
-          <Text style={styles.contentTitle}>Novo{'\n'}Testamento</Text>
+          <Text style={[styles.contentTitle, { color: colors.text }]}>Novo{'\n'}Testamento</Text>
           {filteredBooks.filter(bookId => bookId > 39).map(bookId => (
             <TouchableOpacity 
               key={bookId}
@@ -72,6 +74,7 @@ const HomeScreen = ({ navigation }) => {
 
 // Chapter Selection Screen
 const ChapterSelectionScreen = ({ navigation, route }) => {
+  const { colors } = useTheme();
   const { bookId } = route.params;
   const book = bookContent[bookId];
   
@@ -85,9 +88,9 @@ const ChapterSelectionScreen = ({ navigation, route }) => {
   const column4Chapters = chapterIds.filter((_, index) => index % 4 === 3);
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.bookTitle}>Capítulos</Text>
-      <ScrollView contentContainerStyle={styles.buttonContainer}>
+    <View style={[styles.container, { backgroundColor: colors.background }]}>
+      <Text style={[styles.bookTitle, { color: colors.text }]}>Capítulos</Text>
+      <ScrollView contentContainerStyle={[styles.buttonContainer, { backgroundColor: colors.background }]}>
         {/* Column 1 */}
         <View style={styles.columnSmall}>
           {column1Chapters.map(chapterId => (
@@ -154,18 +157,21 @@ const ChapterSelectionScreen = ({ navigation, route }) => {
 
 // Book Content Screen Component
 const BookContentScreen = ({ route }) => {
+  const { colors } = useTheme();
   const { bookId, chapterId } = route.params;
   const chapter = bookContent[bookId].chapters[chapterId];
   
   return (
-    <ScrollView contentContainerStyle={styles.contentContainer}>
-      <Text style={styles.contentText}>{chapter.content}</Text>
+    <ScrollView contentContainerStyle={[styles.contentContainer, { backgroundColor: colors.background }]}>
+      <Text style={[styles.contentText, { color: colors.text }]}>{chapter.content}</Text>
     </ScrollView>
   );
 };
 
 // Home screen for Hinario
 const HinarioScreen = ({ navigation }) => {
+  const { colors } = useTheme();
+  const colorScheme = useColorScheme();
   const [searchQuery, setSearchQuery] = useState('');
 
   const normalizeString = (str) => {
@@ -182,16 +188,16 @@ const HinarioScreen = ({ navigation }) => {
   );
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, { backgroundColor: colors.background }]}>
       <StatusBar barStyle="light-content" backgroundColor="#4A90E2" />
       <TextInput
-        style={styles.searchBar}
+        style={[styles.searchBar, { color: colors.text, backgroundColor: colorScheme === 'dark' ? '#333' : '#eee', borderColor: '#4A90E2' }]}
         placeholder="Pesquisar"
         placeholderTextColor="#888"
         value={searchQuery}
         onChangeText={setSearchQuery}
       />
-      <ScrollView contentContainerStyle={styles.buttonContainer} keyboardShouldPersistTaps={'handled'}>
+      <ScrollView contentContainerStyle={[styles.buttonContainer, { backgroundColor: colors.background }]} keyboardShouldPersistTaps={'handled'}>
         {/* Only Column */}
         <View style={styles.columnBig}>
           {filteredHinos.map(hinoId => (
@@ -211,12 +217,13 @@ const HinarioScreen = ({ navigation }) => {
 
 // Hino Content Screen Component
 const HinoContentScreen = ({ route }) => {
+  const { colors } = useTheme();
   const { hinoId } = route.params;
   const hino = hinoContent[hinoId];
   
   return (
-    <ScrollView contentContainerStyle={styles.contentContainer}>
-      <Text style={styles.contentText}>{hino.content}</Text>
+    <ScrollView contentContainerStyle={[styles.contentContainer, { backgroundColor: colors.background }]}>
+      <Text style={[styles.contentText, { color: colors.text }]}>{hino.content}</Text>
     </ScrollView>
   );
 };
@@ -296,16 +303,43 @@ const HinarioStack = () => {
   );
 };
 
+const MyLightTheme = {
+  ...DefaultTheme,
+  colors: {
+    ...DefaultTheme.colors,
+    background: '#ffffffff',
+    text: '#000',
+    card: '#4A90E2',
+    primary: '#4A90E2',
+    border: '#ccc',
+  },
+};
+
+const MyDarkTheme = {
+  ...DarkTheme,
+  colors: {
+    ...DarkTheme.colors,
+    background: '#191919',
+    text: '#fff',
+    card: '#4A90E2',
+    primary: '#4A90E2',
+    border: '#333',
+  },
+};
+
 // Main App Component
 const App = () => {
+  const colorScheme = useColorScheme();
+  const theme = colorScheme === 'dark' ? MyDarkTheme : MyLightTheme;
+
   return (
-    <NavigationContainer theme={DarkTheme}>
+    <NavigationContainer theme={theme}>
       <Tab.Navigator
         tabBarPosition="bottom"
         screenOptions={{
           tabBarStyle: {
-            backgroundColor: '#191919',
-            borderTopColor: '#333',
+            backgroundColor: theme.colors.background,
+            borderTopColor: theme.colors.border,
           },
           tabBarActiveTintColor: '#4A90E2',
           tabBarInactiveTintColor: '#888',
