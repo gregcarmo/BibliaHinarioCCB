@@ -156,14 +156,32 @@ const ChapterSelectionScreen = ({ navigation, route }) => {
 };
 
 // Book Content Screen Component
-const BookContentScreen = ({ route }) => {
+const BookContentScreen = ({ route, navigation }) => {
   const { colors } = useTheme();
   const { bookId, chapterId } = route.params;
   const chapter = bookContent[bookId].chapters[chapterId];
-  
+  const chapterIds = Object.keys(bookContent[bookId].chapters).map(id => parseInt(id));
+  const currentChapterIndex = chapterIds.indexOf(chapterId);
+  const isLastChapter = currentChapterIndex === chapterIds.length - 1;
+
+  const handleNextChapter = () => {
+    if (!isLastChapter) {
+      const nextChapterId = chapterIds[currentChapterIndex + 1];
+      navigation.replace('BookContent', { bookId, chapterId: nextChapterId });
+    }
+  };
+
   return (
     <ScrollView contentContainerStyle={[styles.contentContainer, { backgroundColor: colors.background }]}>
       <Text style={[styles.contentText, { color: colors.text }]}>{chapter.content}</Text>
+      {!isLastChapter && (
+        <TouchableOpacity
+          style={styles.button}
+          onPress={handleNextChapter}
+        >
+          <Text style={styles.buttonText}>Próximo capítulo</Text>
+        </TouchableOpacity>
+      )}
     </ScrollView>
   );
 };
@@ -258,7 +276,6 @@ const BibliaStack = () => {
       />
       <Stack.Screen 
         name="BookContent" 
-        component={BookContentScreen}
         options={({ route }) => ({ 
           title: `Capítulo ${route.params.chapterId}`,
           headerTitleAlign: 'center',
@@ -267,7 +284,9 @@ const BibliaStack = () => {
             backgroundColor: '#4A90E2',
           }, 
         })}
-      />
+      >
+        {(props) => <BookContentScreen {...props} />}
+      </Stack.Screen>
     </Stack.Navigator>
   );
 };
