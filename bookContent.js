@@ -1793,6 +1793,7 @@ A astúcia de José para deter seus irmãos
 13 Então rasgaram os seus vestidos, e carregou cada um o seu jumento, e tornaram à cidade.
 14 E veio Judá com os seus irmãos à casa de José, porque ele ainda estava ali; e prostraram-se diante dele na terra.
 15 E disse-lhes José: Que é isto que fizestes? não sabeis vós que tal homem como eu bem adivinha?
+
 A humilde súplica de Judá
 
 16 Então disse Judá: Que diremos a meu senhor? que falaremos? e como nos justificaremos? Achou Deus a iniquidade de teus servos; eis que somos escravos de meu senhor, tanto nós como aquele em cuja mão foi achado o copo.
@@ -5834,6 +5835,7 @@ Jornadas dos israelitas
 17 (Então Israel cantou este cântico: Sobe, poço, e vós cantai dele:
 18 Tu poço, que cavaram os príncipes, que escavaram os nobres do povo, e o legislador com os seus bordões.) E do deserto partiram para Matana;
 19 E de Matana para Naaliel, e de Naaliel para Bamote;
+
 Os israelitas ferem os reis de Moabe e de Basã
 
 20 E de Bamote ao vale que está no campo de Moabe, no cume de Pisga, e à vista do deserto.
@@ -5924,6 +5926,7 @@ Balaque edifica sete altares
 15 Então disse a Balaque: Fica aqui ao pé do teu holocausto, e eu irei ali ao seu encontro.
 16 E, encontrando-se o Senhor com Balaão, pôs uma palavra na sua boca, e disse: Torna para Balaque, e fala assim.
 17 E, vindo a ele, eis que estava ao pé do holocausto, e os príncipes dos moabitas com ele: disse-lhe pois Balaque: Que cousa falou o Senhor?
+
 As profecias de Balaão
 
 18 Então alçou a sua parábola, e disse: Levanta-te, Balaque, e ouve: inclina os teus ouvidos a mim, filho de Zipor.
@@ -9673,6 +9676,7 @@ Elcana e suas mulheres
 6 E a sua competidora excessivamente a irritava para a embravecer: porquanto o Senhor lhe tinha cerrado a madre.
 7 E assim o fazia ele de ano em ano: quando ela subia à casa do Senhor, assim a outra a irritava: pelo que chorava, e não comia.
 8 Então Elcana, seu marido, lhe disse: Ana por que choras? e por que não comes? e por que está mal o teu coração? não te sou eu melhor do que dez filhos?
+
 Ana roga a Deus que lhe dê um filho
 
 9 Então Ana se levantou, depois que comeram e beberam em Silo; e Eli, sacerdote, estava assentado numa cadeira, junto a um pilar do templo do Senhor.
@@ -10401,6 +10405,7 @@ A entrevista de Davi com Jônatas
 8 Usa pois de misericórdia com o teu servo, porque fizeste a teu servo entrar contigo em aliança do Senhor: se porém há em mim crime, mata-me tu mesmo: porque me levarias a teu pai?
 9 Então disse Jônatas: Longe de ti tal cousa: porém se dalguma maneira soubesse que já este mal está inteiramente determinado por meu pai, para que viesse sobre ti, não to descobriria eu?
 10 E disse Davi a Jônatas: Quem tal me fará saber, se por acaso teu pai te responder asperamente?
+
 Jônatas faz um pacto com Davi
 
 11 Então disse Jônatas a Davi: Vem e saiamos ao campo. E saíram ambos ao campo.
@@ -11456,6 +11461,7 @@ Davi, sabendo da morte de Absalão, chora amargamente
 8 Então o rei se levantou, e se assentou à porta: e fizeram saber a todo o povo, dizendo: Eis que o rei está assentado à porta. Então todo o povo veio apresentar-se diante do rei; porém Israel fugiu cada um para as suas tendas.
 9 E todo o povo, em todas as tribos de Israel, andava altercando entre si, dizendo: O rei nos tirou das mãos de nossos inimigos, e ele nos livrou das mãos dos filisteus; e agora fugiu da terra por causa de Absalão.
 10 E Absalão, a quem ungimos sobre nós, já morreu na peleja: agora, pois, por que vos calais, e não fazeis voltar o rei?
+
 Davi volta para Jerusalém
 
 11 Então o rei Davi enviou a Zadoque e a Abiatar, sacerdotes, dizendo: Falai aos anciãos de Judá, dizendo: Por que seríeis vós os últimos em tornar a trazer o rei para a sua casa? (porque as palavras de todo o Israel chegaram ao rei, até à sua casa.)
@@ -11744,6 +11750,7 @@ A velhice de Davi
 29 Então jurou o rei e disse: Vive o Senhor, o qual remiu a minha alma de toda a angústia.
 30 Que, como te jurei pelo Senhor Deus de Israel, dizendo: Certamente teu filho Salomão reinará depois de mim, e ele se assentará no meu trono, em meu lugar, assim o farei no dia de hoje.
 31 Então Batseba se inclinou com o rosto em terra, e se prostrou diante do rei, e disse: Viva o rei Davi meu senhor para sempre!
+
 Salomão é constituído rei
 
 32 E disse o rei Davi: Chamai-me a Zadoque, o sacerdote, e a Natã, o profeta, e a Benaia, filho de Joiada. E entraram à presença do rei.
@@ -12464,6 +12471,7 @@ A conspiração de Zinri
 18 E sucedeu, que Zinri, vendo que a cidade era tomada, se foi ao paço da casa do rei: e queimou sobre si a casa do rei a fogo, e morreu,
 19 Por causa dos seus pecados que cometera, fazendo o que parecia mal aos olhos do Senhor, andando no caminho de Jeroboão, e no seu pecado que fizera, fazendo pecar a Israel.
 20 Quanto ao mais dos sucessos de Zinri, e à conspiração que fez porventura não está escrito no livro das crônicas dos reis de Israel?
+
 Onri vence a Tibni e reina
 
 21 Então o povo de Israel se dividiu em dois partidos: metade do povo seguia a Tibni, filho de Ginate para o fazer rei, e a outra metade seguia a Onri.
@@ -12734,6 +12742,7 @@ Acabe faz aliança com Josafá
 26 Então disse o rei de Israel: Tomai a Mica e tornai a trazê-lo a Amom, o chefe da cidade, e a Joás filho do rei,
 27 E direis: Assim diz o rei: Metei este homem na casa do cárcere, e sustentai-o com o pão de angústia, e com água de amargura, até que eu venha em paz.
 28 E disse Mica: Se tu voltares em paz, o Senhor não tem falado por mim. Disse mais: Ouvi todos os povos!
+
 A guerra contra os siros, e a morte de Acabe
 
 29 Assim o rei de Israel e Josafá, rei de Judá, subiram a Ramote de Gileade.
@@ -15473,6 +15482,7 @@ Aliança entre Josafá e Acabe
 25 Então disse o rei de Israel: Tomai a Mica, e tornai a levá-lo a Amom, o governador da cidade, e a Joás filho do rei.
 26 E direis: Assim diz o rei: Metei este homem na casa do cárcere; e sustentai-o com pão de angústia, e com água de angústia até que eu volte em paz.
 27 E disse Mica: Se é que tornares em paz, o Senhor não tem falado por mim. Disse mais: Ouvi, povos todos!
+
 A guerra contra Ramote-Gileade e a morte de Acabe
 
 28 Subiram pois o rei de Israel e Josafá, rei de Judá, a Ramote-Gileade.
@@ -17686,6 +17696,7 @@ Elifaz acusa Jó de impiedade
 14 Que é o homem, para que seja puro? e o que nasce da mulher, para que fique justo?
 15 Eis que nos seus santos não confiaria, e nem os céus são puros aos seus olhos.
 16 Quanto mais abominável e corrupto é o homem, que bebe a iniquidade como a água?
+
 Elifaz mostra que o ímpio é atormentado nesta vida
 
 17 Escuta-me, mostrar-to-ei; e o que vi te contarei
@@ -25105,6 +25116,7 @@ A soberania de Deus; a vaidade dos ídolos
 18 Nada sabem, nem entendem; porque se lhe untaram os olhos, para que não vejam, e os seus corações, para que não entendam.
 19 E nenhum deles toma isto a peito, e já não têm conhecimento nem entendimento para dizer: Metade queimei no fogo, e cozi pão sobre as suas brasas, assei sobre elas carne, e a comi: e faria eu do resto uma abominação? ajoelhar-me-ia eu ao que saiu duma árvore?
 20 Apascenta-se de cinza: o seu coração enganado o desviou; de maneira que não pode livrar a sua alma, nem dizer: Não há uma mentira na minha mão direita?
+
 A promessa de livramento. A vinda de Ciro
 
 21 Lembra-te destas cousas ó Jacó, e ó Israel, porquanto és meu servo; eu te formei, meu servo és, ó Israel; não me esquecerei de ti.
@@ -30028,6 +30040,7 @@ A terrível carestia causada pela locusta e pela seca
 15 Tocai a buzina em Sião, santificai um jejum, proclamai um dia de proibição.
 16 Congregai o povo, santificai a congregação, ajuntai os anciãos, congregai os filhinhos, e os que mamam: saia o noivo da sua recâmara, e a noiva do seu tálamo.
 17 Chorem os sacerdotes, ministros do Senhor, entre o alpendre e o altar, e digam: Poupa a teu povo, ó Senhor, e não entregues a tua herança ao opróbrio, para que as nações façam escárnio dele; porque diriam entre os povos: Onde está o seu Deus?
+
 Promessa de abundância
 
 18 Então o Senhor terá zelo da sua terra, e se compadecerá do seu povo.
@@ -31594,6 +31607,7 @@ Jesus apazigua a tempestade
 25 E os seus discípulos, aproximando-se o despertaram, dizendo: Senhor, salva-nos, que perecemos.
 26 E ele disse-lhes: Por que temeis, homens de pouca fé? Então, levantando-se, repreendeu os ventos e o mar, e seguiu-se uma grande bonança.
 27 E aqueles homens se maravilharam, dizendo: Que homem é este, que até os ventos e o mar lhe obedecem?
+
 Os endemoninhados gergesenos
 
 28 E, tendo chegado à outra banda, à província dos gergesenos, saíram-lhe ao encontro dois endemoninhados, vindos dos sepulcros; tão ferozes eram que ninguém podia passar por aquele caminho.
@@ -32624,6 +32638,7 @@ Jesus perante o sinédrio
 66 Que vos parece? E eles, respondendo, disseram: É réu de morte.
 67 Então cuspiram-lhe no rosto e lhe davam punhadas, e outros o esbofeteavam,
 68 Dizendo: Profetiza-nos, Cristo, quem é o que te bateu?
+
 Pedro nega a Jesus
 
 69 Ora Pedro estava assentado fora, no pátio; e, aproximando-se dele uma criada, disse: Tu também estavas com Jesus, o galileu.
@@ -32907,6 +32922,7 @@ A blasfêmia dos escribas
 28 Na verdade vos digo que todos os pecados serão perdoados aos filhos dos homens, e toda a sorte de blasfêmias, com que blasfemarem;
 29 Qualquer, porém, que blasfemar contra o Espírito Santo, nunca obterá perdão, mas será réu do eterno juízo.
 30 (Porque diziam: Tem espírito imundo.)
+
 A família de Jesus
 
 31 Chegaram então seus irmãos e sua mãe; e, estando de fora, mandaram-no chamar.
@@ -33180,6 +33196,7 @@ O fermento dos fariseus
 19 Quando parti os cinco pães entre os cinco mil, quantos cestos cheios de pedaços levantastes? Disseram-lhe: Doze.
 20 E, quando parti os sete entre os quatro mil, quantas alcofas cheias de pedaços levantastes? E disseram-lhe: Sete.
 21 E ele lhes disse: Como não entendeis ainda?
+
 Cura dum cego de Betsaida
 
 22 E chegou a Betsaida; e trouxeram-lhe um cego, e rogaram-lhe que lhe tocasse.
@@ -33988,6 +34005,7 @@ Cura de um endemoninhado
 34 Dizendo: Ah! que temos nós contigo, Jesus Nazareno? vieste a destruir-nos? Bem sei quem és: o Santo de Deus.
 35 E Jesus o repreendeu, dizendo: Cala-te, e sai dele. E o demônio, lançando-o por terra no meio do povo, saiu dele sem lhe fazer mal.
 36 E veio espanto sobre todos, e falavam entre si uns e outros dizendo: Que palavra é esta que até aos espíritos imundos manda com autoridade e poder e eles saem?
+
 A cura da sogra de Pedro
 
 37 E a sua fama divulgava-se por todos os lugares, em redor daquela comarca.
@@ -34231,6 +34249,7 @@ Jesus apazigua a tempestade
 23 E, navegando eles, adormeceu; e sobreveio uma tempestade de vento no lago, e enchiam-se d’água, estando em perigo.
 24 E, chegando-se a ele, o despertaram, dizendo: Mestre, Mestre, perecemos. E ele, levantando-se, repreendeu o vento e a fúria da água; e cessaram, e fez-se bonança.
 25 E disse-lhes: Onde está a vossa fé? E eles, temendo, maravilharam-se, dizendo uns aos outros: Quem é este, que até aos ventos e à água manda, e lhe obedecem?
+
 O endemoninhado gadareno
 
 26 E navegaram para a terra dos gadarenos, que está defronte da Galileia.
@@ -34444,6 +34463,7 @@ Parábola do amigo importuno
 11 E qual o pai dentre vós que, se o filho lhe pedir pão, lhe dará uma pedra? Ou também, se lhe pedir peixe, lhe dará por peixe uma serpente?
 12 Ou também, se lhe pedir um ovo, lhe dará um escorpião?
 13 Pois se vós, sendo maus, sabeis dar boas dádivas aos vossos filhos, quanto mais dará o Pai celestial o Espírito Santo àqueles que lho pedirem?
+
 A blasfêmia dos fariseus
 
 14 E estava ele expulsando um demônio, o qual era mudo. E aconteceu que, saindo o demônio, o mudo falou; e maravilhou-se a multidão.
@@ -34837,6 +34857,7 @@ A parábola do juiz iníquo
 6 E disse o Senhor: Ouvi o que diz o injusto juiz.
 7 E Deus não fará justiça aos seus escolhidos, que clamam a ele de dia e de noite, ainda que tardio para com eles?
 8 Digo-vos que depressa lhes fará justiça. Quando porém vier o Filho do homem, porventura achará fé na terra?
+
 A parábola do fariseu e do publicano
 
 9 E disse também esta parábola a uns que confiavam em si mesmos, crendo que eram justos, e desprezavam os outros:
@@ -35013,6 +35034,7 @@ O Cristo Filho de Davi
 42 Visto como o mesmo Davi diz no livro dos Salmos: Disse o Senhor ao meu Senhor: Assenta-te à minha direita,
 43 Até que eu ponha os teus inimigos por escabelo de teus pés.
 44 Se Davi lhe chama Senhor como é ele seu filho?
+
 Jesus censura os escribas
 
 45 E, ouvindo-o todo o povo, disse Jesus aos seus discípulos:
@@ -35888,6 +35910,7 @@ Jesus, o bom pastor
 19 Tornou pois a haver divisão entre os judeus por causa destas palavras.
 20 E muitos deles diziam: Tem demônio, e está fora de si: porque o ouvis?
 21 Diziam outros: Estas palavras não são de endemoninhado; pode porventura um demônio abrir os olhos aos cegos?
+
 A festa da dedicação. Jesus, interrogado pelos judeus, declara-se o Messias, Filho de Deus. Desejam apedrejá-lo, e ele retira-se para além do Jordão
 
 22 E em Jerusalém havia a festa da dedicação, e era inverno.
@@ -36253,6 +36276,7 @@ Jesus preso em Getsêmani
 9 Para que se cumprisse a palavra que tinha dito: dos que me deste nenhum deles perdi.
 10 Então Simão Pedro, que tinha espada, desembainhou-a, e feriu o servo do sumo sacerdote, cortando-lhe a orelha direita. E o nome do servo era Malco.
 11 Mas Jesus disse a Pedro: Mete a tua espada na bainha; não beberei eu o cálice que o Pai me deu?
+
 Jesus perante o sinédrio. Pedro nega-o
 
 12 Então a coorte, e o tribuno, e os servos dos judeus prenderam a Jesus e o manietaram.
@@ -39203,6 +39227,7 @@ O desinteresse de Paulo
 16 Mas seja assim; eu não vos fui pesado, mas, sendo astuto, vos tomei com dolo.
 17 Porventura aproveitei-me de vós por algum daqueles que vos enviei?
 18 Roguei a Tito, e enviei com ele um irmão. Porventura Tito se aproveitou de vós? Não andamos porventura no mesmo espírito, sobre as mesmas pisadas?
+
 Os últimos avisos aos coríntios: saudações
 
 19 Cuidais que ainda nos desculpamos convosco? Falamos em Cristo perante Deus, e tudo isto, ó amados, para vossa edificação.
@@ -41101,6 +41126,7 @@ Devemos resistir às paixões
 10 Humilhai-vos perante o Senhor, e ele vos exaltará.
 11 Irmãos, não faleis mal uns dos outros. Quem fala mal de um irmão, e julga a seu irmão, fala mal da lei, e julga a lei; e, se tu julgas a lei já não és observador da lei, mas juiz.
 12 Há só um legislador e um juiz que pode salvar e destruir. Tu, porém, quem és, que julgas a outrem?
+
 A falibilidade dos projetos humanos
 
 13 Eia agora vós, que dizeis: Hoje, ou amanhã, iremos a tal cidade, e lá passaremos um ano, e contrataremos, e ganharemos;
