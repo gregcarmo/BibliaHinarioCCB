@@ -6,6 +6,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { View, TouchableOpacity, Text, StyleSheet, ScrollView, StatusBar, TextInput, useColorScheme } from "react-native";
 import { bookContent } from "./bookContent";
 import { hinoContent } from "./hinoContent";
+import { SafeAreaProvider, useSafeAreaInsets } from "react-native-safe-area-context";
 
 const Stack = createNativeStackNavigator();
 const Tab = createMaterialTopTabNavigator();
@@ -315,48 +316,61 @@ const MyDarkTheme = {
   },
 };
 
+// MainTabs Component with Safe Area Handling
+const MainTabs = () => {
+  const theme = useTheme();
+  const insets = useSafeAreaInsets();
+
+  return (
+    <Tab.Navigator
+      tabBarPosition="bottom"
+      screenOptions={{
+        tabBarStyle: {
+          backgroundColor: theme.colors.background,
+          borderTopColor: theme.colors.border,
+          paddingBottom: insets.bottom,
+        },
+        tabBarActiveTintColor: "#4A90E2",
+        tabBarInactiveTintColor: "#888",
+        tabBarIndicatorStyle: {
+          backgroundColor: "#4A90E2",
+          position: "top",
+        },
+        tabBarLabelStyle: {
+          textTransform: "none", // Prevents uppercase transformation
+          fontSize: 14,
+        },
+      }}
+    >
+      <Tab.Screen
+        name="Biblia"
+        component={BibliaStack}
+        options={{
+          tabBarLabel: "Bíblia",
+        }}
+      />
+      <Tab.Screen
+        name="Hinario"
+        component={HinarioStack}
+        options={{
+          tabBarLabel: "Hinário",
+        }}
+      />
+    </Tab.Navigator>
+  );
+};
+
 // Main App Component
 const App = () => {
   const colorScheme = useColorScheme();
   const theme = colorScheme === "dark" ? MyDarkTheme : MyLightTheme;
 
   return (
-    <NavigationContainer theme={theme}>
-      <Tab.Navigator
-        tabBarPosition="bottom"
-        screenOptions={{
-          tabBarStyle: {
-            backgroundColor: theme.colors.background,
-            borderTopColor: theme.colors.border,
-          },
-          tabBarActiveTintColor: "#4A90E2",
-          tabBarInactiveTintColor: "#888",
-          tabBarIndicatorStyle: {
-            backgroundColor: "#4A90E2",
-            position: "top",
-          },
-          tabBarLabelStyle: {
-            textTransform: "none", // Prevents uppercase transformation
-            fontSize: 14,
-          },
-        }}
-      >
-        <Tab.Screen
-          name="Biblia"
-          component={BibliaStack}
-          options={{
-            tabBarLabel: "Bíblia",
-          }}
-        />
-        <Tab.Screen
-          name="Hinario"
-          component={HinarioStack}
-          options={{
-            tabBarLabel: "Hinário",
-          }}
-        />
-      </Tab.Navigator>
-    </NavigationContainer>
+    <SafeAreaProvider>
+      <NavigationContainer theme={theme}>
+        <MainTabs />
+      </NavigationContainer>
+    </SafeAreaProvider>
   );
 };
 
