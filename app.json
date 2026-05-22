@@ -31,6 +31,12 @@
         "projectId": "fd58070b-e258-498e-9f31-45e37d2249af"
       }
     },
-    "owner": "gspace"
+    "owner": "gspace",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/fd58070b-e258-498e-9f31-45e37d2249af"
+    }
   }
 }
