@@ -1,0 +1,48 @@
+name: Create Production Release
+
+on:
+  push:
+    tags:
+      - "v*" # Triggers the workflow whenever you push a tag like v1.0.0, v1.1.2, etc.
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🏗 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 📦 Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9 # Matches your current pnpm setup
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "pnpm"
+
+      - name: 🛠 Setup Expo CLI
+        uses: expo/expo-github-action@v8
+        with:
+          expo-version: latest
+          token: ${{ secrets::EXPO_TOKEN }}
+
+      - name: 🔌 Install Dependencies
+        run: pnpm install
+
+      - name: 🚀 Build Android APK via EAS
+        # Replace "--profile preview" with whatever profile in your eas.json generates an APK
+        run: eas build --platform android --profile preview --non-interactive --output=./my-app.apk
+
+      - name: 🗂 Create GitHub Release & Upload APK
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ./my-app.apk
+          name: Release ${{ github.ref_name }}
+          tag_name: ${{ github.ref }}
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by GitHub
