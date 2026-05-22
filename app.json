@@ -3,6 +3,7 @@
     "name": "Bíblia Hinário CCB",
     "slug": "ccb-biblia-hinario",
     "version": "2.5.2",
+    "versionCode": "25",
     "orientation": "portrait",
     "icon": "./assets/bible-icon.png",
     "userInterfaceStyle": "automatic",
