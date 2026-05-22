@@ -8,7 +8,6 @@ on:
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
-    # 🟢 ADICIONADO: Garante que o script tenha permissão para criar a Release e subir o APK
     permissions:
       contents: write
     steps:
@@ -31,6 +30,11 @@ jobs:
         with:
           distribution: "zulu"
           java-version: "17"
+
+      - name: Setup Android SDK & NDK
+        uses: android-actions/setup-android@v3
+        with:
+          packages: "ndk;27.1.12297006"
 
       - name: Setup EAS CLI
         uses: expo/expo-github-action@v8
